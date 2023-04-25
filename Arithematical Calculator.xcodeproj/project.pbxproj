@@ -101,8 +101,8 @@
 			children = (
 				7E6A1D3429F590D40025E645 /* AppDelegate.swift */,
 				7E6A1D3629F590D40025E645 /* SceneDelegate.swift */,
-				7E6A1D3829F590D40025E645 /* ViewController.swift */,
-				7E6A1D3A29F590D40025E645 /* Main.storyboard */,
+				7E6A1D6529F590F50025E645 /* Controller */,
+				7E6A1D6429F590ED0025E645 /* View */,
 				7E6A1D3D29F590D60025E645 /* Assets.xcassets */,
 				7E6A1D3F29F590D60025E645 /* LaunchScreen.storyboard */,
 				7E6A1D4229F590D60025E645 /* Info.plist */,
@@ -125,6 +125,22 @@
 				7E6A1D5729F590D60025E645 /* Arithematical_CalculatorUITestsLaunchTests.swift */,
 			);
 			path = "Arithematical CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		7E6A1D6429F590ED0025E645 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E6A1D3A29F590D40025E645 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E6A1D6529F590F50025E645 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E6A1D3829F590D40025E645 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,6 +456,7 @@
 				DEVELOPMENT_TEAM = 4WCVXD5T4H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Arithematical Calculator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Arithematical Calculator";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,6 +485,7 @@
 				DEVELOPMENT_TEAM = 4WCVXD5T4H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Arithematical Calculator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Arithematical Calculator";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
